@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Button.qml</file>
+        <file>Style.qml</file>
+        <file>division.png</file>
+        <file>equal.png</file>
+        <file>minus.png</file>
+        <file>multiplication.png</file>
+        <file>percent.png</file>
+        <file>plus.png</file>
+        <file>plus_minus.png</file>
+        <file>bkt.png</file>
+    </qresource>
+</RCC>
