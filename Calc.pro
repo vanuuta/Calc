@@ -18,4 +18,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     CalculatorLogic.hpp
 
-DISTFILES +=
+DISTFILES += \
+    C:/Users/вантус/OneDrive/Рабочий стол/opensans/static/OpenSans_Condensed-SemiBold.ttf \
+    C:/Users/вантус/OneDrive/Рабочий стол/opensans/static/OpenSans_Condensed-SemiBold.ttf

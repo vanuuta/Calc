@@ -155,7 +155,10 @@ Window {
     Item {
 
         id: buttons
-
+        FontLoader{
+            id: open_sans
+            source: OpenSans_Condensed-SemiBold.ttf
+        }
         anchors.top: resultBox.bottom
         anchors.left: parent.left
         anchors.right: parent.right
@@ -279,7 +282,7 @@ Window {
 
                 text:"7"
                 font.pixelSize: 24
-                font.family: "Open Sans"
+                font.family: open_sans
                 font.weight: 600
                 color:"#024873"
             }
@@ -307,7 +310,7 @@ Window {
 
                 text:"8"
                 font.pixelSize: 24
-                font.family: "Open Sans"
+                font.family: open_sans
                 font.weight: 600
                 color:"#024873"
             }
@@ -335,7 +338,7 @@ Window {
 
                 text:"9"
                 font.pixelSize: 24
-                font.family: "Open Sans"
+                font.family: open_sans
                 font.weight: 600
                 color:"#024873"
             }
@@ -390,7 +393,7 @@ Window {
                 anchors.centerIn: btn_4
                 text:"4"
                 font.pixelSize: 24
-                font.family: "Open Sans"
+                font.family: open_sans
                 font.weight: 600
                 color:"#024873"
             }
@@ -417,7 +420,7 @@ Window {
                 anchors.centerIn: btn_5
                 text:"5"
                 font.pixelSize: 24
-                font.family: "Open Sans"
+                font.family: open_sans
                 font.weight: 600
                 color:"#024873"
             }
@@ -445,7 +448,7 @@ Window {
                 anchors.centerIn: btn_6
                 text:"6"
                 font.pixelSize: 24
-                font.family: "Open Sans"
+                font.family: open_sans
                 font.weight: 600
                 color:"#024873"
             }
@@ -485,8 +488,8 @@ Window {
 
         // 1
         Button {
-            x: guiStyle.margin + ( 0 * ( width + guiStyle.margin ) )
-            y: guiStyle.margin + ( 3 * ( height + guiStyle.margin ) )
+            x: guiStyle.margin + (0 * ( width + guiStyle.margin ) )
+            y: guiStyle.margin + (3 * ( height + guiStyle.margin ) )
 
             width: guiStyle.btnWidth
             height: guiStyle.btnHeight
@@ -497,11 +500,13 @@ Window {
                 radius: parent.radius
                 color: parent.pressed ? "#04BFAD" : "#B0D1D8"
             }
+
+
             Text{
                 anchors.centerIn: btn_1
-                text:"1"
+                text: "1"
                 font.pixelSize: 24
-                font.family: "Open Sans"
+                font.family: open_sans
                 font.weight: 600
                 color:"#024873"
             }
@@ -527,9 +532,9 @@ Window {
             }
             Text{
                 anchors.centerIn: btn_2
-                text:"2"
+                text: "2"
                 font.pixelSize: 24
-                font.family: "Open Sans"
+                font.family: open_sans
                 font.weight: 600
                 color:"#024873"
             }
@@ -557,7 +562,7 @@ Window {
                 anchors.centerIn: btn_3
                 text:"3"
                 font.pixelSize: 24
-                font.family: "Open Sans"
+                font.family: open_sans
                 font.weight: 600
                 color:"#024873"
             }
@@ -644,7 +649,7 @@ Window {
                 anchors.centerIn: btn_0
                 text:"0"
                 font.pixelSize: 24
-                font.family: "Open Sans"
+                font.family: open_sans
                 font.weight: 600
                 color:"#024873"
             }
@@ -740,7 +745,7 @@ Window {
                 anchors.centerIn: btn_dot
                 text:"."
                 font.pixelSize: 24
-                font.family: "Open Sans"
+                font.family: open_sans
                 font.weight: 600
                 color:"#024873"
             }

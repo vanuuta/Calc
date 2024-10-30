@@ -11,5 +11,6 @@
         <file>plus.png</file>
         <file>plus_minus.png</file>
         <file>bkt.png</file>
+        <file>OpenSans_Condensed-SemiBold.ttf</file>
     </qresource>
 </RCC>
